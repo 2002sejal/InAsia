@@ -1,0 +1,120 @@
+#anspopup{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  #anspopup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  
+#cluecontainer.active{
+    filter: blur(40px);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  #wrongpopup{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 50px;
+    height: 70px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  #wrongpopup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  
+  #wrongheading{
+    font-size: 20px;
+  }
+
+  
+#mapbtn{
+  position: relative;
+  left: 0%;
+  background: black;
+  font-size: 17px;
+  padding: 10px;
+  transition-duration: 1s;
+  cursor: pointer;
+  color: white;
+}
+  #mapbtn:hover{
+    background: white;
+    color: black;
+  }
+  
+  #nextbtn{
+    position: relative;
+    left: 25%;
+    background: black;
+    font-size: 17px;
+    padding: 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+  }
+  
+#nextbtn:hover{
+  background: white;
+  color: black;
+  }
+  
+#knowbtn{
+    position: relative;
+    left: 13%;
+    background: black;
+    font-size: 17px;
+    padding: 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+  }
+  
+  
+#knowbtn:hover{
+    background: white;
+    color: black;
+  }
+  
+  
+  #wrongbutton{
+    position: absolute;
+    top: 57%;
+    left: 40.5%;
+    background: black;
+    font-size: 17px;
+    padding: 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #wrongbutton:hover{
+    background: white;
+    color: black;
+  }
+  

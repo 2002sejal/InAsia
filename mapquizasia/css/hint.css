@@ -1,0 +1,233 @@
+.cluecontainer{
+    position: relative;
+    width: 88%;
+    height: 600px;
+    margin: auto;
+    margin-top: 0px;
+    display: none;
+}
+.divhead{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.progress-bar{
+    position: absolute;
+    width: 50px;
+    margin-top: 0px;
+    height: 400px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    top: 38%; 
+    right: 2%;
+  }
+  
+  .progress-bar-fill{
+    height: 100%;
+    background: #59ea63;
+    transition: width 0.5s;
+    border-radius: 10px;
+    
+  }
+  
+  .progress-bar-value{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+#remain{
+  position: absolute;
+  top: 0%;
+  right: -4%;
+
+}
+#health{
+  position: absolute;
+  top: 25%; 
+  right: -1%;
+}
+#timer{
+    position: absolute;
+    background: #e8e8e8;
+    
+    width: 200px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    right: -4%;
+    top: 16%;
+}
+
+
+
+/* .hintcontainer{
+    position: relative;
+    top: 0px;
+    width: 900px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    height: 200px;
+    padding: 20px 80px 80px 60px;
+    border-radius: 15px;
+    text-align-last: center;
+    border: 2px solid black;
+    margin: auto;
+    background-color: #e8e8e8;
+    margin-bottom: 0px;
+} */
+.hintcontainer {
+  display: flex;
+  position: relative;
+  top: 4.8%;
+  width: 55%;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+  height: 250px;
+  padding: 20px 80px 80px 60px;
+  border-radius: 15px;
+  text-align-last: center;
+  border: 2px solid black;
+  margin: auto;
+  background-color: #e8e8e8;
+  margin-bottom: 0px;
+  margin-top: 100px;
+  margin-left: 10px;
+  /* left: 10px; */
+}
+
+#clue{
+  position: absolute;
+    font-size: 20px;
+    text-decoration: underline;
+    left: 15%;
+}
+
+#heading1{
+    position: absolute;
+    width: 80%;
+    border: 3px solid black;
+    font-size: 25px;
+    padding: 10px;
+    top:23%;
+    left:7%;
+}
+
+/* .container-heading{
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    left: 800px;
+    top: -300px;
+    margin-top: 0px;
+    left: 815px;
+    margin-bottom: 0px;
+  } */
+  .container-heading {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    left: 48%;
+    
+    top: 130px;
+    margin-top: 0px;
+    /* left: 815px; */
+    margin-bottom: 0px;
+}
+
+  .container-heading span{
+    color: white;
+    padding: 2px 20px;
+    font-family: 'Macondo', cursive;
+    font-size: 25px;
+    background: black;
+    display: inline-block;
+  }
+
+  /* .inputdiv{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: #e8e8e8;
+    margin: auto;
+    margin-top: 0px;
+    top: -40px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+  } */
+  .inputdiv {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: #e8e8e8;
+    margin: auto;
+    margin-top: 0px;
+    
+    top: 7%;
+    left: -15.5%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+  .imgcontainer{
+    position: absolute;
+    width: 68%;
+    left: 25%;
+    padding: 10px;
+    top:17%;
+  }
+
+  #myText{
+    position: absolute;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    right: 10%;
+    
+  }
+
+  #myButton{
+    position: absolute;
+    padding: 10px;
+    left: 210px;
+    top: 60px;
+    font-size: 17px;
+    border: 2px solid black;
+    background: black;
+    color: white;
+  }
+
+  #myButton:hover{
+    background: white;
+    color: black;
+  }
+  
+  #image1{
+    position: absolute;
+    height: 250px;
+    width: 68%;
+    border: 2px solid black;
+    background-size: cover;
+    padding: 5px;
+    
+    
+  }
+
+  
+

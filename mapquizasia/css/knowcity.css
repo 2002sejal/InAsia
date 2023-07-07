@@ -1,0 +1,102 @@
+.knowyourcity{
+    position: relative;
+    display: none;
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+  }
+
+  hr.solid{
+    border-top: 2px solid black;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+  }
+  
+  #img1{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 2px solid black;
+    background-size: cover;
+  }
+  
+  #img2{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-size: cover;
+  }
+
+  #imgheading1{
+    margin-top: 0px;
+    font-size: 23px;
+  }
+
+  #imgheading2{
+    margin-top: 0px;
+    font-size: 23px;
+  }
+
+
+  #knownext{
+    position: relative;
+    margin-top: 10px;
+    background: black;
+    font-size: 17px;
+    padding: 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+    right: -430px;
+  }
+
+
+
+  #knownext:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+  }
+
+  .fact{
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    padding: 7px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+  }
+
+  #knowmap{
+    position: relative;
+    margin-top: 10px;
+    background: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+    left: -430px;
+  }
+
+  #knowmap:hover{
+    background: white;
+    color: black;
+  }
+
+
+  #knownext:hover{
+    background: white;
+    color: black;
+  }

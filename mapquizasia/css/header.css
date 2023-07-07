@@ -1,0 +1,62 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    margin-top: 0px;
+    background: linear-gradient(to right bottom, #cfb54d, #fb9039);
+}
+
+#textt{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    right: 45%;
+    top: -40px;
+    bottom: 7px;
+}
+#textt2{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    right: 39%;
+    top: 32px;
+    bottom: 7px;
+}
+#headermap{
+    position: absolute;
+    right: 120px;
+    background: linear-gradient(to right bottom, #8acf4d, #0d8615);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#headerhelp{
+    position: absolute;
+    right: 20px;
+    background: linear-gradient(to right bottom, #cf4d7f, #3950fb);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 23px;
+    height: 53px;
+}
+
+#headermap:hover{
+    border: 2px solid white;
+}
+
+#headerhelp:hover{
+    border: 2px solid white;
+}
+

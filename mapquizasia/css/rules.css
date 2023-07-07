@@ -1,0 +1,51 @@
+#rulescontainer{
+    position: absolute;
+    height: 600px;
+    width: 80%;
+    top: 0%;
+    left: 10%;
+    background-color: #e8e8e8;
+    margin: auto;
+    margin-top: 10px;
+    overflow-y: scroll;
+    text-align: center;
+    transition: 0.5s;
+    display: none;
+}
+
+#rulescontainer.active{
+    top: 10%;
+    display: block;
+    transition: 0.5s;
+}
+
+#rulesheading{
+    position: relative;
+    margin-top: 0px;
+}
+
+#orderedlist{
+    text-align: left;
+    padding: 10px;
+    margin-left: 60px; 
+}
+
+#rulesimages{
+    height: 700px;
+    width: 1000px;
+}
+
+.close {
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 500px;
+  }
+
+.close:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}

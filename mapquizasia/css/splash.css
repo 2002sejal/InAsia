@@ -1,0 +1,40 @@
+.splash{
+    position: relative;
+    width: 88%;
+    margin: auto;
+    height: 600px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: #e8e8e8;
+    text-align: center;
+    font-size: 35px;
+    z-index: 200;
+    display: none;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+#heading{
+    position: relative;
+    top: 190px;
+}
+
+@media (max-width: 1000px ){
+    .splash{
+        font-size: 24px;
+    }
+
+    body{
+        overflow-x: scroll;
+    }
+}
